@@ -7,23 +7,24 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <div id="container">
     <header>
     <h1>📖 Story time AI Generator 🌙</h1>
-    <p>Enter the topic and let the AI Generator create a story for you!</p>
+    <p class="intro">Enter the topic and let the AI Generator create a story for you!</p>
 </header>
 <main>
   <form id="ai-form">
-    <label for="prompt">Tell me a topic:</label>
+    <label for="prompt"></label>
     <input
       type="text"
       id="prompt"
       name="prompt"
-      placeholder="Enter your Topic here"
+      placeholder="Enter your topic here"
       autofocus
       required/>
-      <button type="submit">Story Time!</button>
+      <button type="submit" id="submit-button">Story Time!</button>
       </form>
-  <div id="result">
+  <div class="result">
       <p id="loading"></p>
       
       </div>
@@ -50,6 +51,7 @@
             >Netlify</a>
         </p>
         </footer>
+        </div>
     <script src="src/index.js"></script>
   </body>
 </html>
