@@ -1,0 +1,1 @@
+alert ("Hello! This is the AI Generator project.");
