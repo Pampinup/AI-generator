@@ -1,4 +1,4 @@
-alert ("Hello! This is the AI Generator project.");
+
 
 const text = "Once upon a time...";
 const loadingElem = document.getElementById("loading");
