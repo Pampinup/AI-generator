@@ -7,8 +7,27 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Welcome to the AI Generator Project</h1>
-
+    <header>
+    <h1>📖 Story time AI Generator 🌙</h1>
+    <p>Enter the topic and let the AI Generator create a story for you!</p>
+</header>
+<main>
+  <form id="ai-form">
+    <label for="prompt">Tell me a topic:</label>
+    <input
+      type="text"
+      id="prompt"
+      name="prompt"
+      placeholder="Enter your Topic here"
+      autofocus
+      required/>
+      <button type="submit">Story Time!</button>
+      </form>
+  <div id="result">
+      <p id="loading"></p>
+      
+      </div>
+</main>
     <footer>
         <p>This AI project was coded by 
         <a
