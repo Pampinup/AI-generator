@@ -27,7 +27,7 @@ function generateStory(event) {
   axios.get(apiUrl).then(displayStory);
 
   new Typewriter("#loading", {
-    strings: ["Working on it", "Please wait..."],
+    strings: [`Working on ${prompt}`, `Please wait...`],
     autoStart: true,
   });
 }
