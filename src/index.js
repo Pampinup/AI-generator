@@ -1,12 +1,32 @@
+function displayStory(response) {
+  new Typewriter("#story", {
+    strings: response.data.answer,
+    autoStart: true,
+    delay: 1,
+    cursor: "",
+  });
+}
+
 function generateStory(event) {
   event.preventDefault();
 
-  new Typewriter("#loading", {
-    strings: ["Working on it", "Please wait..."],
-    autoStart: true,
-  });
+  let apiKey = "9ab043d0b59dfdb1606tfebb0401oaab";
+  let prompt = document.querySelector("#prompt").value;
+  let context =
+    "Write in less than 410 words a SHORT story or tale about, creative and happy ending. Kids oriented.";
+  // Allow multiple prompts separated by commas
+  if (prompt.includes(",")) {
+    const prompts = prompt
+      .split(",")
+      .map((p) => p.trim())
+      .filter(Boolean);
+    prompt = prompts.join(" and ");
+  }
+  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  new Typewriter("#story", {
+  axios.get(apiUrl).then(displayStory);
+
+  new Typewriter("#loading", {
     strings: ["Working on it", "Please wait..."],
     autoStart: true,
   });

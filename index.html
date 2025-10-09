@@ -4,56 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>AI Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div id="container">
-    <header>
-    <h1>📖 Story time AI Generator 🌙</h1>
-    <p class="intro">Enter the topic and let the AI Generator create a story for you!</p>
-</header>
-<main>
-  <form id="ai-form">
-    <label for="prompt"></label>
-    <input
-      type="text"
-      id="prompt"
-      name="prompt"
-      placeholder="Enter your topic here"
-      autofocus
-      required/>
-      <button type="submit" id="submit-button">Story Time!</button>
-      </form>
-  <div class="result">
-      <p id="loading"></p>
-      <p id="story"></p>
-      
-      </div>
-</main>
-    <footer>
-        <p>This AI project was coded by 
-        <a
+      <header>
+        <h1>📖 Story time AI Generator 🌙</h1>
+        <p class="intro">
+          Enter the topic and let the AI Generator create a story for you!
+        </p>
+      </header>
+      <main>
+        <form id="ai-form">
+          <label for="prompt"></label>
+          <input
+            type="text"
+            id="prompt"
+            name="prompt"
+            placeholder="Enter your topic here. Ex: unicorn, forest, Isabella"
+            autofocus
+            required
+          />
+          <button type="submit" id="submit-button">Story Time!</button>
+        </form>
+        <div class="result">
+          <p id="loading"></p>
+          <p id="story"></p>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This AI project was coded by
+          <a
             class="foot-link"
             href="https://github.com/Pampinup"
             target="_blank"
             >Joice Ortega</a
-          > 
-          and is open-sourced on 
+          >
+          and is open-sourced on
           <a
             class="foot-link"
             href="https://github.com/Pampinup/AI-generator"
             target="_blank"
             >GitHub</a
-            > and is hosted on 
-            <a
+          >
+          and is hosted on
+          <a
             class="foot-link"
             href="https://ai-generattor.netlify.app/"
             target="_blank"
-            >Netlify</a>
+            >Netlify</a
+          >
         </p>
-        </footer>
-        </div>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
