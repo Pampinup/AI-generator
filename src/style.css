@@ -1,8 +1,8 @@
 body {
-background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/684/original/lena-polishko-knm_6itR-Ug-unsplash.jpg?1744236539");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/684/original/lena-polishko-knm_6itR-Ug-unsplash.jpg?1744236539");
   background-size: cover;
   background-blend-mode: overlay;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #container {
@@ -14,77 +14,77 @@ background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/fi
   box-shadow: 0 4px 8px #7e8a5a;
 }
 
-h1{
-    text-align: center;
-    color: #1a2111;
-    font-size: 32px;
-    line-height: 1.5;
-    font-weight: 800;
+h1 {
+  text-align: center;
+  color: #1a2111;
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 800;
 }
 
-.intro{
-    font-size: 20px;
-    color: #fefae0;
+.intro {
+  font-size: 20px;
+  color: #fefae0;
 }
- header{
-    margin-bottom: 30px;
- }
- form {
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    display: flex;
- }
- #prompt {
-    padding: 16px;
-    border: 1px solid rgba(33, 66, 40, 0.5);
-    border-radius: 50px;
-    line-height: 20px;
-    font-size: 16px;
-    color:  #774417; 
-    width: 80%;
-    background-color: rgb(255, 255, 255, 0.5);
+header {
+  margin-bottom: 30px;
+}
+form {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+}
+#prompt {
+  padding: 16px;
+  border: 1px solid rgba(33, 66, 40, 0.5);
+  border-radius: 50px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #774417;
+  width: 80%;
+  background-color: rgb(255, 255, 255, 0.5);
 }
 #prompt:focus {
-    border: 1px solid #bc6c25;
+  border: 1px solid #bc6c25;
 }
 #prompt:hover {
-    border: 1px solid #bc6c25;
+  border: 1px solid #bc6c25;
 }
 #submit-button {
-    margin-left: 10px;
-    border: none;
-    background-color: #1a2111;
-    color: #fefae0;
-    font-size: 16px;
-    width: 150px;
-    border-radius: 50px;
-    padding: 14px 24px;
+  margin-left: 10px;
+  border: none;
+  background-color: #1a2111;
+  color: #fefae0;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 50px;
+  padding: 14px 24px;
 }
 #submit-button:hover {
-    background-color: #bc6c25;
-    cursor: pointer;
+  background-color: #bc6c25;
+  cursor: pointer;
 }
 .result {
-    color: #fefae0;
-    line-height: 1.5;
-    margin: 20px 0px 40px 0px;
-    font-size: 18px;
-    text-align: justify;
+  color: #fefae0;
+  line-height: 1.5;
+  margin: 20px 0px 40px 0px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 #loading {
-    color:#fefae0;
-    font-size: 18px;
-    text-align: center;
-    margin: 20px 0px 40px 0px;
+  color: #fefae0;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0px 40px 0px;
 }
 
 footer {
-    font-size: 12px;
-    color: #fefae0;
+  font-size: 12px;
+  color: #fefae0;
 }
 .foot-link {
-    color: #dda15e;
-    font-weight: 700;
+  color: #dda15e;
+  font-weight: 700;
 }
