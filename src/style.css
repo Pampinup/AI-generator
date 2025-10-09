@@ -37,11 +37,11 @@ h1{
  }
  #prompt {
     padding: 16px;
-    border: 1px solid rgba(39, 33, 66, 0.5);
+    border: 1px solid rgba(33, 66, 40, 0.5);
     border-radius: 50px;
     line-height: 20px;
     font-size: 16px;
-    color:  #bc6c25; 
+    color:  #774417; 
     width: 80%;
     background-color: rgb(255, 255, 255, 0.5);
 }
