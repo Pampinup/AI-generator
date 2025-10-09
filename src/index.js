@@ -1,4 +1,16 @@
+function generateStory(event) {
+  event.preventDefault();
 
+  new Typewriter("#loading", {
+    strings: ["Working on it", "Please wait..."],
+    autoStart: true,
+  });
+
+  new Typewriter("#story", {
+    strings: ["Working on it", "Please wait..."],
+    autoStart: true,
+  });
+}
 
 const text = "Once upon a time...";
 const loadingElem = document.getElementById("loading");
@@ -11,3 +23,6 @@ function typeWriter() {
   }
 }
 typeWriter();
+
+let storyFormElemt = document.querySelector("#ai-form");
+storyFormElemt.addEventListener("submit", generateStory);
