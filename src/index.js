@@ -13,7 +13,7 @@ function generateStory(event) {
   let apiKey = "9ab043d0b59dfdb1606tfebb0401oaab";
   let prompt = document.querySelector("#prompt").value;
   let context =
-    "Write in less than 410 words a SHORT story or tale about, creative and happy ending. Kids oriented.";
+    "Write in less than 400 words a SHORT story or tale about, creative and happy ending for kids.";
   // Allow multiple prompts separated by commas
   if (prompt.includes(",")) {
     const prompts = prompt
