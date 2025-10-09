@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/684/original/lena-polishko-knm_6itR-Ug-unsplash.jpg?1744236539");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/174/653/original/WhatsApp_Image_2025-10-09_at_14.26.04.jpeg?1760016421");
   background-size: cover;
   background-blend-mode: overlay;
   font-family: "Courier New", Courier, monospace;
@@ -9,14 +9,14 @@ body {
   max-width: 600px;
   margin: 120px auto;
   padding: 20px;
-  background-color: rgb(255, 255, 255, 0.35);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   box-shadow: 0 4px 8px #7e8a5a;
 }
 
 h1 {
   text-align: center;
-  color: #1a2111;
+  color: #fefae0;
   font-size: 32px;
   line-height: 1.5;
   font-weight: 800;
@@ -37,7 +37,7 @@ header {
 }
 form {
   padding: 30px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   display: flex;
 }
@@ -47,7 +47,7 @@ form {
   border-radius: 50px;
   line-height: 20px;
   font-size: 16px;
-  color: #774417;
+  color: #3c220c;
   width: 80%;
   background-color: rgb(255, 255, 255, 0.5);
 }

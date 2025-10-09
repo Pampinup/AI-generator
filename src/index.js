@@ -1,10 +1,6 @@
 function displayStory(response) {
-  new Typewriter("#story", {
-    strings: response.data.answer,
-    autoStart: true,
-    delay: 1,
-    cursor: "",
-  });
+  let storyResult = document.querySelector("#story");
+  storyResult.innerHTML = response.data.answer;
 }
 
 function generateStory(event) {
@@ -27,8 +23,9 @@ function generateStory(event) {
   axios.get(apiUrl).then(displayStory);
 
   new Typewriter("#loading", {
-    strings: [`Working on ${prompt}`, `Please wait...`],
+    strings: [`Working on your story about ${prompt}`, `Please wait...`],
     autoStart: true,
+    cursor: "",
   });
 }
 
